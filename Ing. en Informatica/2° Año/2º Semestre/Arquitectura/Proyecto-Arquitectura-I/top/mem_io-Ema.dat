@@ -1,0 +1,81 @@
+secuencia:
+//    ; Inicialización de registros
+//0    ADD R4, R0, #7   ; Contador del bucle externo
+//4    ADD R8, R0, #0   ; Contador de luces encendidas
+//
+//bucle_externo:
+//    ; Enciende LEDs del grupo 1
+//8    LDR R1, =0x80    ; Carga el valor 0x80 en R1
+//12    STR R1, [R0, #0x800]   ; Enciende LEDs del grupo 1 (Output_Port = R1)
+//
+//    ; Espera
+//16    B delay
+//
+//    ; Apaga LEDs del grupo 1
+//20    LDR R1, =0x00    ; Carga el valor 0x00 en R1
+//24    STR R1, [R0, #0x800]   ; Apaga LEDs del grupo 1 (Output_Port = R1)
+//
+//    ; Espera
+//28    B delay
+//
+//    ; Enciende LEDs del grupo 2
+//32    LDR R1, =0x02    ; Carga el valor 0x02 en R1
+//36    STR R1, [R0, #0x800]   ; Enciende LEDs del grupo 2 (Output_Port = R1)
+//
+//    ; Espera
+//    B delay
+//
+//    ; Apaga LEDs del grupo 2
+//40    LDR R1, =0x00    ; Carga el valor 0x00 en R1
+//44    STR R1, [R0, #0x800]   ; Apaga LEDs del grupo 2 (Output_Port = R1)
+//
+//    ; Espera
+//48    B delay
+//
+//    ; Actualiza contadores
+//52    SUB R4, R4, #1   ; Decrementa el contador del bucle externo
+//56    ADD R8, R8, #1   ; Incrementa el contador de luces encendidas
+//
+//    ; Verifica el final del bucle externo
+//60    CMP R4, #0
+//64    BNE bucle_externo
+//
+//    ; Resetea contadores
+//68    ADD R4, R0, #7   ; Reinicia el contador del bucle externo
+//
+//    ; Lectura de puertos para verificar el interruptor T8
+//72    LDR R1, [R0, #0x800]   ; Lee el puerto (Input_Port) en R1
+//76    LDR R2, =0x02    ; Carga el valor 0x02 en R2
+//80    AND R3, R1, R2   ; R3 = R1 & R2
+//
+//    ; Compara R3 con cero
+//84    CMP R3, #0
+//
+//    ; Salta a secuencia si R3 no es igual a cero (T8 sigue encendido)
+//88    BNE secuencia
+//92    B secuencia
+//
+//delay:
+//    ; Espera
+//96    SUBS R4, R4, #1
+//100    BNE delay
+//104    ADD R2, R2, #4
+//108    SUBS R5, R5, #1
+//112    BNE lector
+//
+E04F000F
+E0802000
+E280500E
+E5921000
+E5801320
+E2803707
+E2544001
+1AFFFFFE
+E2822004
+E2555001
+1AFFFFF7
+EAFFFFF3
+
+//E04F000F
+//E2802005
+//E280300C

@@ -1,0 +1,8 @@
+//SUB R0, R15, R15
+//ADD R2, R0, #5
+//ADD R3, R2, R2
+//STR R3, [R0, #0x800] // para escribir en la placa
+//en hexa:
+E04F000F
+E2802005
+E0823002

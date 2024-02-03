@@ -1,0 +1,24 @@
+solo usamos arm version reducida
+
+imem inicializa la memoria con las instrucciones arm del archivo de texto puro que lee
+
+arm coverter:(con GDB/LLDB)
+convierte instrucciones de arm a hexadecimal porque el archivo de instrucciones solo debe tener los hexadecimales
+
+para simular puedo armar un archivo con los valores iniciales que quiero tener
+r15 unico registro que esta inicializado porque hace referencia a pc
+
+en top:
+// instantiate i/O ports at 0x800 address// no se escribe en la memoria de datos sino en los puertos osea los leds
+
+port inport (clk, PortSel & MemtoReg, INport, INData);//en puerto de entrada tengo los pulsadores y la llave
+
+en dmem:
+puedo mandar hasta 64 instrucciones de 32 de bits de una sola vez, osea 256 bytes. 
+se declara aca: logic [31:0] RAM[63:0];
+
+todo el archivo representa el micro como si fuera el hardware. no modificarlo porque se altera todo el micro, para que haga lo que quiero solo tengo que cambiar las instrucciones tkm
+
+arm con testbench:
+es una version ampliada con comentarios (recomienda imprimir) y carga las instrucciones a mano (offset es inmediato)
+
