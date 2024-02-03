@@ -1,0 +1,7 @@
+print:
+https://stackoverflow.com/questions/4965335/how-to-print-binary-tree-diagram-in-java
+implementacion:
+https://www.softwaretestinghelp.com/binary-search-tree-in-java/
+https://www.geeksforgeeks.org/deletion-in-binary-search-tree/
+quicksort:
+https://www.geeksforgeeks.org/quicksort-on-singly-linked-list/

@@ -1,0 +1,5 @@
+    Cada nodo va a tener ambos datos (lista y arbol)
+    Lista ordenada y arbol tambien
+    NO PENSAR EN FIN PRACTICO(NO ES EFICIENTE EL PROYECTO)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    Impresion con lista y busqueda precisa con arbol
+    Agregar en ambos
