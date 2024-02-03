@@ -1,0 +1,13 @@
+Guía de Ejercicios Punteros 2
+
+	7. Desarrolle un programa que declare e inicialice un vector de 5 valores (4.5,8,2.3,1.1,3). Luego, se pide que calcule y muestre la sumatoria y el promedio. Utilice punteros para realizar el ejercicio.
+
+	8. Desarrollar un programa que declare e inicialice un vector tipo char con el abecedario. Luego mostrar en pantalla el abecedario en mayuscula y minuscula, utilizando punteros. Nota: la funcion para pasar a mayuscula es toupper() y a minusculas es tolower().  Ejemplo: cadena[i] = tolower(cadena[i]); A=65
+
+	9.  Desarrollar el ejercicio anterior con funciones. Crear una funcion que pase los valores a mayusculas y una funcion que pase los valores a minusculas. Desarrollar un programa que declare e inicialice un vector tipo char con el abecedario. Luego mostrar en pantalla el abecedario en mayuscula y minuscula,  utilizando punteros. Nota: la funcion para pasar a mayuscula es toupper() y a minusculas es tolower(). Ejemplo: cadena[i] = tolower(cadena[i]); A=65
+
+	10. Desarrolle un programa que declare e inicialice un vector de 5 valores aleatorios. Luego, crear 3 funciones que permita hallar el valor maximo, minimo y el sumatoria de ellos. Finalmente mostrar los resultados. Utilice punteros para realizar el ejercicio.
+
+	11. Desarrolle un programa que declare e inicialice un arreglo de 2x3 con valores aleatorios. Luego mostrar los valores. Utilice punteros para realizar el ejercicio.
+
+	12. Elabore una especificación y su solución.
