@@ -1,0 +1,12 @@
+En una biblioteca se desean gestionar los préstamos de libros, para ello el encargado posee una lista con todos los libros y los siguientes atributos: código, cantidad total, cantidad prestado y cantidad disponible.
+
+|Código	|Cant. Total	|Cant. Prestado	|Cant. Disponible
+|1	|100		|	0	|	100
+|2	|200		|	0	|	200
+|3	|30		|	0	|	30
+Se solicita que el programa realice las siguientes funciones:
+
+	Cargar los datos de los libros en un arreglo de 10 x 4 de manera automática (uso de números aleatorios). La columna 0 es un código que se va aumentando en 1 en 1, y para las columnas 1 y 3 se debe obtener un número aleatorio entre el 5 y 10. Y la columna 2 colocar 0 por defecto. (Como se muestra en la tabla anterior)
+	Mostrar los datos registrados en el arreglo.
+	Prestar libros. El cual debe mostrar la lista de libros disponibles y solicitar al usuario el código del libro y la cantidad de libros a pedir. Luego el sistema debe controlar que haya la cantidad disponible que se solicita, sino deberá mostrar un mensaje "No hay suficientes libros del código x". Recordar agregar la comprobación de libros disponibles, no se pueden prestar libros cuando si cantidad disponible es cero. Cuando se quiere terminar la operación "prestar libros" el código es igual a cero (0). Finalmente el sistema muestra un resumen de los libros solicitados.
+	Mostrar el libro más solicitados.

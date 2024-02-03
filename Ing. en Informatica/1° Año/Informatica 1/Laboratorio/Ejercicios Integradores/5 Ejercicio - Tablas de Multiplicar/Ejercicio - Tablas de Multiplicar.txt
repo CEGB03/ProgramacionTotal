@@ -1,0 +1,49 @@
+Las computadoras están jugando un papel creciente en la educación. Escriba un programa que ayudaría a un alumno a aprender a multiplicar. Utilice la función srand para generar dos números enteros positivos de un dígito. A continuación debería escribir una pregunta en pantalla, por ejemplo ¿Cuánto es 6 veces 7?, luego escribe la respuesta del estudiante. Las operaciones y resultados son almacenados en una matriz de 4 columnas y 5 filas.
+
+
+
+|Multiplicando	|Multiplicador	|Rta. Estudiante		|Rta. Correcta
+|6		|7		|(ingresado por el estudiante)	|(calculado por el programa)
+|5		|2		|				|
+|1		|2		|				|
+|4		|5		|				|
+|8		|3		|				|
+Al finalizar las 5 preguntas, se verifican y se muestran en pantalla los resultados obtenidos. En caso de que el alumno cometió un error, mostrar el resultado correcto.
+
+Por último, calcular cuántas preguntas respondió correctamente el alumno, dependiendo la cantidad de respuestas correcta escribir el siguiente mensaje:
+
+- 5 respuestas correctas. “¡Felicitaciones!”
+
+- Entre 3 y 4. “¡Bien!, Vas por buen camino.”
+
+- 2 o menos respuestas correctas. “Hay que practicar más.”
+
+Por ejemplo:
+
+****************************************
+
+Preguntas:
+
+¿Cuánto es 6 veces 7? 45
+
+¿Cuánto es 5 veces 5? 25
+
+…
+
+****************************************
+
+Resultados
+
+Cuenta Resultado Resultado Correcto
+
+6 x 7 = 45 42
+
+5 x 5 = 25
+
+….
+
+
+
+¡Felicitaciones!
+
+****************************************

@@ -1,0 +1,30 @@
+Realizar los pseudocodigos o diagrama de flujo y códigos en c++
+
+
+	1. Realizar un programa que muestre la tabla de multiplicar del 1 al 10 de un numero. Ejemplo: Si ingreso 2 deberá aparecer en pantalla los valores 2, 4, 6, hasta el 20.
+
+
+	2. Desarrollar un programa que permita la carga de 5 valores por teclado y nos muestre posteriormente la suma de los valores ingresados y su promedio.
+
+
+	3. Escribir un programa que pida ingresar coordenadas (x,y) que representan puntos en el plano. Informar cuántos puntos se han ingresado en el primer, segundo, tercer y cuarto cuadrante. Al comenzar el programa se pide que se ingrese la cantidad de puntos a procesar.
+
+
+	4. Se solicita un algoritmo que calcule cuanto ha podido ahorrar en un año una persona. Para ello se solicita cuanto ha sido su sueldo en cada uno de los meses y cuanto ha gastado en cada uno de los meses. 
+ 
+
+	5. Una estación meteorológica en Los Molinos toma la temperatura cada una hora. Luego muestra por día el promedio de la temperatura, la temperatura minina y la temperatura máxima. 
+   Nota: en algunos casos también necesitaremos utilizar las estructuras selectivas vistas anteriormente.
+
+
+
+En ocasiones necesitamos utilizar "contadores" y "sumadores". Por ejemplo:
+
+Para contar, contamos en 1 en 1. 
+contador=0
+contador=contador + 1
+
+Para sumar, sumamos lo que teníamos anteriormente mas el nuevo numero
+sumatoria=0
+
+sumatoria=sumatoria + numero

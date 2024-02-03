@@ -1,0 +1,38 @@
+El gerente de una empresa de software quiere dar reconocimiento y otorgar incentivos a sus mejores programadores de acuerdo a su desempeño. Para ello fijó los siguientes criterios para calcular el incentivo: (crear una función por cada criterio)
+
+a. Según su antigüedad, es decir la cantidad de meses que está programando. Por cada mes de antigüedad son $500.
+
+b. Según la cantidad de lenguajes de programación con los que ha programado en el mes. Si programó:
+
+- Menos o igual a 2 lenguajes su incentivo es de $4000.
+
+- Mayor a 2 lenguajes es de $6000.
+
+c. Según la cantidad de líneas de código que ha programado en el mes. Una línea de código equivale a $100
+
+d. Según la cantidad de errores que ha introducido en el código en el mes. Dependiendo del tipo de error es la penalización (descuento) que tendrá el incentivo.
+
+- Por cada error de sintaxis se le descontará $100
+
+- Por cada error de lógica se le descontará $500
+
+e. En el caso de que se el programador tenga más o igual cantidad de errores que líneas de código escritas, el programador no tendrá incentivo este mes. 
+
+Crear un menú de opciones con las siguientes operaciones:
+
+1. Cargar datos.
+
+2. Mostrar un listado de los incentivos percibidos por los programadores. Por ejemplo:
+
+LISTADO DE INCENTIVOS A LOS PROGRAMADORES - MES JULIO 2021
+
+|N° Legajo|Incentivo por Antiguedad (a)	|Incentivo por cant. Lenguajes (b)      |Incentivo por cant. Lineas de código (c)|Penalización por cant. erores (d)|Incentivo |	  |				|					|					  |				   |Total
+|1	  |				|					|					  |				   |
+|2	  |				|					|					  |				   |
+3. Mostrar el total de incentivos pagados por la empresa.
+
+4. Mostrar el mejor programador. Es quien tiene más líneas de código con menos errores.
+
+5. Mostrar un listado de todos los incentivos totales. (un vector de una dimensión de incentivo total).
+
+Para la resolución de este ejercicio usar los ejercicios utilizar arreglos y funciones.

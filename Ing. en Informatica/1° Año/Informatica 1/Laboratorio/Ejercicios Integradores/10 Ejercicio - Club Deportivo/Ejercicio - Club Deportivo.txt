@@ -1,0 +1,52 @@
+Práctico 
+
+Programe el siguiente ejercicio implementando:
+
+ARREGLOS
+FUNCIONES CON PASO POR VALOR Y PASO POR REFERENCIA, CON RETORNO DE VALOR Y SIN RETORNO. 
+NO está permitido el uso de VARIABLES GLOBALES.
+Espeficicación
+
+En un club deportivo se desean gestionar los préstamos de elementos de deporte (pelotas, conos, aros, etc.), para ello el encargado posee un inventario con todos los elementos con los siguientes atributos: código, cantidad total, cantidad prestado y cantidad disponible. 
+
+
+Código
+
+Cant_Total
+
+Cant_prestado
+
+Cant_Disponible
+
+1
+
+100
+
+50
+
+50
+
+2
+
+200
+
+10
+
+180
+
+…
+
+…
+
+…
+
+…
+
+
+Se solicita que el programa realice las siguientes funciones:
+
+Cargar los datos en un arreglo. En este caso la cant_prestado es cero, y la cant_disponible se completa automáticamente con la cant_Total.
+
+Prestar elementos. El cual debe mostrar el listado de elementos disponibles y solicitar al usuario el código del elemento y la cantidad a prestar. Tener en cuenta que no se puede prestar más elementos que los disponibles. 
+
+Mostrar los datos registrados en el arreglo.

@@ -1,0 +1,20 @@
+Crear un arreglo de números enteros ramdon de 5x5.
+
+Luego crear un menú de opciones con las siguientes funciones:
+
+- Mostrar todos los valores.
+
+- Promedio de todos los valores del arreglo.
+
+- Buscar cuanto se repite un valor ingresado por el usuario.
+
+- Imprimir los valores pares
+
+- Sumar los valores impares.
+
+- Crear un arreglo de 25x2 e inicializar a cero (0), para guardar la frecuencia con que aparece un número en el arreglo 5x5. Luego mostrar la lista de frecuencia de los números.
+
+|Num	|Frecuencia|
+|6	|1	   |
+|7	|4	   |
+| ...	|... 	   |

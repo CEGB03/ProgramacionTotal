@@ -1,0 +1,17 @@
+1. Ingrese un número y diga a qué día de la semana corresponde (la semana empieza el domingo).
+
+2. Ingrese dos números y el código de operación, si es el código es 1 deberá sumar los dos números, si el código es 2 deberá restar los dos números, si es 3 debe hacer el producto de los dos números, si es 4 hará la división.
+
+3. Realice un algoritmo que solicite una letra, y luego diga si la misma es vocal o consonante.
+
+4. Una compañía de envío internacional tiene servicio en algunos países del mundo. El costo por el servicio de envío se basa en el peso del paquete y la zona a la que va dirigido. 
+
+Zona	Ubicación			Costo por gramo
+1	América del Norte y Central 	$30
+2	América el Sur			$20
+3	Europa				$70
+4	Asia y Oceanía			$100
+
+Realice un algoritmo para determinar el costo de envío de un paquete. Nota: 1000 gr. = 1 kg. 
+
+5. El banco de la ciudad ha decidido aumentar el límite de crédito de las tarjetas de crédito de sus clientes, para esto considera que si su cliente tiene tarjeta tipo 1, el aumento será de 25 %; si tiene tipo 2, será de 35 %; si tiene tipo 3, de 40 %, y para cualquier otro tipo, de 50 %. Realice un algoritmo para determinar el nuevo límite de crédito que tendrá una persona en su tarjeta, para ello deberá solicitar el tipo de tarjeta y el monto actual de su tarjeta.

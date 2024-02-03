@@ -1,0 +1,15 @@
+Ejercicios a realizar en el laboratorio el dia martes 15/03/2022
+
+1. Se requiere un algoritmo para elaborar la planilla de un empleado. Para ello se dispone de sus horas trabajadas en el mes, así como la de la tarifa por hora.
+
+2. Un teatro desea crear un sistema de compra de entradas automático. El sistema solicita al espectador cuantas entradas desea y luego muestra el monto a pagar. Tener en cuenta que cada entrada cuesta $200.
+
+3. Elaborar un algoritmo que solicite el nùmero de respuestas correctas, incorrectas y en blanco, correspondientes a postulantes y muestre su puntaje final considerando, que por cada respuesta correcta tendrá 4 puntos, respuestas incorrectas tendrá -1; y respuestas en blanco tendrá 0 puntos.
+
+4. Elaborar un algoritmo que permita ingresar el número de partidos ganados, perdidos y empatados, por algún equipo en el torneo apertura, se debe de mostrar su puntaje total, teniendo en cuenta que por cada partido ganado obtendrá 3 puntos, empatado 1 y perdido 0 puntos.
+
+5. Realiza un programa que calcule el perímetro y área de las siguientes figuras geométricas:
+
+Figura Perímetro Área
+Cuadrado P=4*lado A=lado*lado
+Rectángulo P=2*base+2*altura A=base*altura

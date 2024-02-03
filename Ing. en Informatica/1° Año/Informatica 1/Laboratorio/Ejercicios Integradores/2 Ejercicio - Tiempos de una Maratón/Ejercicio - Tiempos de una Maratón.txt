@@ -1,0 +1,15 @@
+Usted es contratado por la organización del evento “Maratón Ciudad de Córdoba” para realizar un programa en la cual se registren los siguientes datos: 
+
+
+|N° Corredor	|Tipo Prueba	|Tiempo (minutos)
+|26		|		|
+Tener en cuenta que las pruebas que se corren pueden ser de 3 km y 8 km,  los tiempos realizados estarán expresados en minutos. El programa debe preguntar cuántos corredores participaran y luego serán cargados a medida que lleguen a la meta. Una vez terminada la maratón deberán mostrar los siguientes resultados. 
+
+- Mostrar el listado completo de participantes.
+
+- Cantidad de participantes en la prueba 3km y la prueba 8 km.
+
+- Ganador con su respectivo tiempo y por prueba. (son 2)
+
+Para la resolución de este ejercicio usar los ejercicios utilizar arreglos y funciones.
+

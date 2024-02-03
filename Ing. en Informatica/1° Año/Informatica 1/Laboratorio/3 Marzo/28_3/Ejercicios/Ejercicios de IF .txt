@@ -1,0 +1,15 @@
+Realizar los pseudocodigos, prueba de escritorio y códigos en c++
+
+if, if-else
+
+1. Ingrese un número y determine si es par.
+
+2. Ingrese la cantidad de unidades que tiene una materia y la cantidad de unidades estudiadas por el alumno y determine si el alumno estudio toda la materia o cuántas unidades le faltan estudiar.
+
+3. Una empresa de telefonía lanza una promoción a sus clientes que han llamado mas de 1000 minutos de llamadas locales y 1000 minutos de llamadas a larga distancia haciéndoles un descuento en su factura del 10%. Téngase en cuenta que el precio del minutos de llamadas locales es de $0.05 y de las llamadas de larga a distancia es de $0.10. Realice un algoritmo en la cual solicite los datos necesarios al cliente e informar si es o no beneficiario de tal promoción y cuanto debería abonar en su próxima factura. 
+
+4. Escribir un programa que solicite el ingreso de la temperatura en grados, si la temperatura está por encima de 100 grados desplegar el mensaje “arriba del punto de ebullición del agua”, de lo contrario desplegar el mensaje “abajo del punto de ebullición del agua”.
+
+5. Elabore un ejercicio utilizando la estructura if-else.
+
+if anidados (es un if dentro de otro if)

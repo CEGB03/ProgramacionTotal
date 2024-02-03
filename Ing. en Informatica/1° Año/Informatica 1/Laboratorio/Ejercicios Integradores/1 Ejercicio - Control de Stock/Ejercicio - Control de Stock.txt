@@ -1,0 +1,62 @@
+﻿Una librería de la ciudad desea gestionar la facturación de su comercio, para ello se genera un menú de opciones para las distintas operaciones del negocio.
+
+Se tendrá un arreglo “stock” con los códigos y precios unitarios de los artículos. (Declarar e inicializar el arreglo directamente)
+
+|Código	    |Precio Unitario	|Cantidad
+|1	    |10	        	|50
+|2	    |30	        	|30
+|3	    |1	        	|10
+|4	    |100		|25
+|5	    |20	        	|0
+|6	    |50.5	        |15
+|7	    |5.5	        |5
+Crear un menú de opciones con las siguientes operaciones
+
+a. Registrar una venta. Se solicitará el código del artículo y la cantidad que lleva. Luego deberán ejecutarse las siguientes funciones 
+
+- estaDisponible(), es una función que consulta si hay disponibilidad de ese artículo en el arreglo “stock”, si es así deberá restar la cantidad (la resta no puede dar número negativo), caso contrario deberá informar la falta de ese artículo.
+
+- buscarPrecio(), es una función que busca el precio unitario de un artículo en el arreglo “stock” ) por codigo de articulo. 
+
+- calcularSubtotal(), es una función que calcula los subtotales de cada artículo, es decir cantidadprecio_unitario en en arreglo factura.
+
+- calcularTotal(), es una función que suma todos los subtotales del arreglo factura. 
+
+- mostrarFactura(), es una función que muestra la factura a pagar por el cliente. Luego se pregunta con cuánto va abonar y se calcula su vuelto si es necesario.  
+
+
+Ejemplo de factura
+
+FACTURA N.º 1
+
+|Código	|Cantidad	|Precio Unitario ($)	|Subtotal ($)
+|1	|2		|10			|20
+|7	|1		|5.5			|5.5
+|3	|3		|1			|3
+
+
+¿Con cuánto va abonar $30                             
+
+Vuelto $1,5
+
+
+
+Cada vez que se registra una venta el total es almacenado en un listado de ventas del día, es decir en un arreglo ventas Como se muestra a continuación
+
+
+|N° Factura	|Total Factura($)
+|1		|28.5
+|0		|0
+|0		|0
+Nota Recordar inicializar a cero los valores del arreglo de factura, antes de registrar otra venta.
+
+Generar el cierre de caja del negocio. Para ello deberá leer el arreglo ventas y contar cuántas ventas hubo, y sumar el total de las ventas, finalmente mostrar el resumen del cierre de caja.
+
+CIERRE DE CAJA
+
+Cantidad de facturas realizadas 1
+
+Recaudación diaria $28.5
+
+
+Para la resolución de este ejercicio usar los ejercicios utilizar arreglos y funciones.

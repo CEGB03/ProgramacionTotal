@@ -1,0 +1,236 @@
+Práctico 
+
+Programe el siguiente ejercicio implementando:
+
+ARREGLOS
+FUNCIONES CON PASO POR VALOR Y PASO POR REFERENCIA, CON RETORNO DE VALOR Y SIN RETORNO. 
+NO está permitido el uso de VARIABLES GLOBALES.
+Espeficicación
+
+El área de Recursos Humanos de una importante cadena de supermercados solicita que realice un algoritmo para determinar el sueldo mensual de los N empleados, además calcule cuanto pago la empresa al finalizar el mes.  Por otro lado, según el puesto del empleado será el sueldo básico que le corresponde,  operario $15000, encargado $20000 y jefe $25000. El cálculo del sueldo neto es: 
+
+
+Sueldo
+
+Neto
+
+=
+
+Sueldo
+
+Básico
+
+(SB)
+
+–
+
+Jubilación
+
+–
+
+Obra
+
+Social
+
+–
+
+Sindicato
+
++
+
+Presentismo
+
++
+
+Antigüedad
+
++
+
+Asignación
+
+por hijo
+
+16% 
+
+del
+
+SB 
+
+6% del 
+
+SB
+
+3% 
+
+del 
+
+SB
+
+10% 
+
+del 
+
+SB
+
+$100 
+
+por 
+
+año
+
+$1300 
+
+por 
+
+hijo
+
+
+Identifique qué datos debería pedir esta calculadora para poder hacer el cálculo del sueldo neto.
+
+Se solicita que el programa realice las siguientes funciones:
+
+void cargar(…). Cargar los datos registrados en un arreglo. 
+
+void calcularSueldos(…). Calcular los sueldos de los empleados.
+
+void mostrarUnSueldo(…). Mostrar el recibo de sueldo para cada uno de los empleados. Por ejemplo:
+
+
+*** RECIBO DE SUELDO N° 1 – MES JUNIO 2017 ***
+
+Sueldo Básico: 
+
+$15000
+
+Jubilación 16%:
+
+$2400
+
+Obra Social 6%:
+
+$900
+
+Sindicato 3%:
+
+$450
+
+Presentismo 10%:
+
+$1500
+
+Antigüedad:
+
+$500
+
+Asignación por hijo:
+
+$0
+
+Sueldo Neto:
+
+$13250
+
+*******************************************
+
+
+float calcularTotal(…). Calcular el pago total de sueldos que realizo la empresa.
+
+void mostrarResumen(…). Mostrar el resumen mensual. Por ejemplo: 
+
+
+******************************* RESUMEN MENSUAL JUNIO 2017 **************************
+
+Sueldo
+Básico
+
+Jubilación
+
+Obra Social
+
+Sindicato
+
+Presentismo
+
+Antigüedad
+
+Asignación por hijo
+
+Sueldo
+Neto
+
+15000
+
+2400
+
+900
+
+450
+
+1500
+
+500
+
+0
+
+13250
+
+15000
+
+2400
+
+900
+
+450
+
+0
+
+700
+
+2600
+
+14550
+
+20000
+
+3200
+
+1200
+
+600
+
+2000
+
+600
+
+3900
+
+21500
+
+25000
+
+4000
+
+1500
+
+750
+
+2500
+
+500
+
+2600
+
+24350
+
+
+
+
+
+
+
+Total de Sueldos: 
+
+$73650
+
+*************************************************************************************
+

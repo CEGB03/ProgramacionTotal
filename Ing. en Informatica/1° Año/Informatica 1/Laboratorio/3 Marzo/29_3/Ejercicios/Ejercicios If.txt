@@ -1,0 +1,14 @@
+6. Ingrese los lados de un triángulo y determine de qué triangulo se trata. Si tiene todos los lados diferentes es escaleno, todos los lados iguales es equilátero y si tiene dos lados iguales y uno desigual es isósceles.
+
+7. Ingrese el monto de una cuota y el día de pago. Si el día de pago es menor o igual a 10 no se cobra recargo. De lo contrario si la cuota es mayor a $5000 se cobra el 10% de recargo, sino se cobra el 5%. Debe mostrar en todos los casos el recargo y el valor final de la cuota.
+
+8. El director de una escuela esta organizando un viaje de estudios. La compañía viajes cobra de la siguiente manera de acuerdo a la cantidad de alumnos que vayan:
+
+Cantidad de alumnos	Precio por Alumno
+Mas de 100		$65
+de 50 a 99		$70
+de 30 a 49		$95
+menos de 30		$100
+Por otra parte, el colectivo no esta incluido por la compañía de viajes, por lo que el director contrató un colectivo que tiene un valor de $4000.00. Este costo es asumido por todos los alumnos. 
+
+Realice un algoritmo que permita determinar cuanto hay que cobrarle a cada alumno (el viaje de estudio + el colectivo) y cuanto es el total que el director le tiene que entregar a la compañía de viajes.

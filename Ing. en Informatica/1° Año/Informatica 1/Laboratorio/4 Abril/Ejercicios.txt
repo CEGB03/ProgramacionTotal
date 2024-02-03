@@ -1,0 +1,20 @@
+1. Escriba un programa que pida dos números enteros y que calcule su división, escribiendo si la división es exacta o no. Tener en cuenta que no se puede dividir por cero.
+
+2. Escriba un programa que pida dos números y que conteste cuál es el menor y cuál el mayor o que escriba que son iguales.
+
+3. Escriba un programa que pida tres números y que escriba si son los tres iguales, si hay dos iguales o si son los tres distintos.
+
+4. Para tributar un determinado impuesto se debe ser mayor de 25 años y tener unos ingresos iguales o superiores a $200.000 mensuales. Escribir un programa que pregunte al usuario su edad y sus ingresos mensuales y muestre por pantalla si el usuario tiene que tributar o no.
+
+5. Los alumnos de un curso de inglés se han dividido en dos grupos A y B de acuerdo a la inicial del apellido y a la nota obtenida en el examen de nivelación. El grupo A está formado por los apellidos de la A-M inclusive con las notas mayores o iguales a 7 y el grupo B de la N-Z con notas menores a 7. Escribir un programa que pregunte al usuario la inicial de su apellido y la nota obtenida en el examen, finalmente muestre por pantalla cual es el grupo que le corresponde.
+
+6. Los tramos impositivos para la declaración de la renta en un determinado país son los siguientes expresado en dólares USD:
+
+Renta			Tipo impositivo
+Menos de 20000			5%
+de 20000 a 30000		10%
+de 30000 a 40000		15%
+mas de 40000			20%
+Escribir un programa que pregunte al usuario su renta anual y muestre por pantalla el tipo impositivo que le corresponde. 
+
+7. Escribir un programa para una empresa que tiene salas de juegos para todas las edades y quiere calcular de forma automática el precio que debe cobrar a sus clientes por entrar. El programa debe preguntar al usuario la edad del cliente y mostrar el precio de la entrada. Si el cliente es menor de 4 años puede entrar gratis, si tiene entre 4 y 18 años debe pagar $100 y si es mayor de 18 años, $200.

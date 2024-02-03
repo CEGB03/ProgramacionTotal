@@ -1,0 +1,15 @@
+	1. Se tiene un vector de5elementos con valores numéricos enteros. Luego mostrar los valores que están en posiciones impares.
+
+	2. Realice un programa que permita cargar5números enteros en un vector. Luego calcule el promedio de ellos.    Finalmente mostrar todos los valoresysu promedio.
+
+	3. Realice un programa que permita cargar el abecedario en un vector. Luego muestre el abecedario ingresado.
+
+	4. Crear un arreglo de 10 números enteros y aleatorios. Luego mostrar los valores pares.
+
+	5. Se desea cargar en un vector una cantidad de saldos de proveedores, 50 como máximo. La carga finaliza con un saldo menor o igual a cero. Además, se pide:
+
+	   a. Cantidad de saldos cargados.
+	   b. Promedio de saldos.
+	   c. Cantidad de saldos menores al promedio.
+	   d. Cantidad de saldos mayores al promedio.
+	   e. Calcular cuánto fue lo recaudado en el mes.

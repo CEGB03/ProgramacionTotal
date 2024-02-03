@@ -1,0 +1,21 @@
+Una comuna organiza las ferias culturales todos los fin de semanas en donde se venden artesanías elaboradas por los lugareños, y se ofrecen shows y comidas al paso. La comuna se encarga de gestionar el evento separando por sectores, y en cada uno de ellos hay un puesto, además la comuna ofrece los servicios de luz, agua y baños químicos es por ello que tiene un costo base de $1000. En caso de que se requiera mesa y silla se sumarán $500. 
+
+Se pide generar una matriz (arreglo) de solicitudes de las personas que desean participar en la feria. Crear un menú de opciones con las siguientes funciones:
+
+a. Registrar una solicitud. El N° de solicitud deberá ser generado automáticamente y se solicitará que el usuario ingrese los siguientes datos: rubro al que pertenece (1-Artesanía, 2-Gastronomía o 3-Espectáculo), si requiere mesa o silla (0-No, 1-SI). Luego deberá llamar a una función para calcular el monto a pagar y otra función para asignar el sector, los sectores deben ser consecutivos y no repetirse. En caso de que el rubro sea espectáculo se le asigna sector 0 que es el escenario. Por ejemplo: Lista de solicitudes.
+
+|N° Solicitud	|Rubro	|Requiere mesa/silla	|Monto a pagar ($)*	|N° Sector asignado*|
+|1		|1	|1			|1500			|1		    |
+|2		|2	|0			|1000			|2		    |
+|3		|3	|0			|1000			|0		    |
+|4		|1	|1			|1500			|3		    |
+|5		|3	|0			|1000			|0		    |
+|6		|2	|1			|1500			|4		    |
+
+* Estas columnas deben ser calculadas por el programa.
+
+b. Mostrar la matriz de solicitudes
+
+c. Mostrar la matriz de solicitudes por rubro de Espectáculo.
+
+d. Calcular y sumar la recaudación de la comuna con la feria.

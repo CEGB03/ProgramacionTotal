@@ -1,0 +1,19 @@
+En una chacra orgánica se dedica al cultivo de frutales para la elaboración de dulces de naranja, manzana y tomate. Se solicita crear un programa que permita llevar el control de los costos de la producción. Para ello se tiene la siguiente tabla:
+
+|Código	| Hectáreas	|  Costo	|Cant. Frascos|Costo Producción |Precio unitario|Recaudación|
+|Fruta	|planteadas (m2)|Producción ($) |  Dulces     | por frasco($)	|al público($)	|  ($)	    |
+|	|		|		|	      |			|		|	    |
+|1	|3000		|10000		|500	      |			|		|	    |	
+|2	|2000		|7000		|250	      |			|		|	    |
+|3	|2000		|6000		|300	      |			|		|	    |
+
+Crear un menú de opciones con las siguientes funciones:
+
+Realice una función para cargar los datos. (código, hectáreas, costo de producción y cantidad de frascos de dulces)
+Realice una función para calcular por cada código de fruta  el costo de producción por frasco. (costo de producción / cantidad de frascos de dulces)
+Realice una función para calcular el precio unitario al público. Se espera una ganancia del 50% adicional al costo de producción por frasco.
+Realice una función para calcular la recaudación por cada uno de los productos.
+Realice una función para calcular la recaudación total de la chacra.
+Realice una función para buscar la fruta que mejor rinde en cuanto su relación cantidad de hectáreas plantadas y cantidad de frascos obtenidos.
+Realice una función para pasar las cantidades de frascos de dulces a un vector.
+Realice una función para mostrar la matriz.

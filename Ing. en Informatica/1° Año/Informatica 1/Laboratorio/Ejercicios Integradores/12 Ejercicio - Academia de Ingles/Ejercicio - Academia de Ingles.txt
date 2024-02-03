@@ -1,0 +1,27 @@
+Práctico 
+
+Programe el siguiente ejercicio implementando:
+
+ARREGLOS
+FUNCIONES CON PASO POR VALOR Y PASO POR REFERENCIA, CON RETORNO DE VALOR Y SIN RETORNO. 
+NO está permitido el uso de VARIABLES GLOBALES.
+Espeficicación
+
+En una academia de lenguas extranjeras, se tomarán los exámenes de nivelación para la ubicación de los alumnos en el curso correspondiente de acuerdo a su nivel de idioma. Se tienen un arreglo, una columna con el número de candidato y en otra columna la calificación obtenida. Se desea obtener:
+Buscar el estudiante con mejor calificación.
+
+Buscar el estudiante con peor calificación. 
+
+Un listado ordenado por orden de mérito de mayor a menor.
+
+Cantidad de estudiantes aprobados con 7 o más, y cantidad de estudiantes desaprobados.
+
+
+Una vez ordenada la lista, se procede a separar los grupos de alumnos en 3 niveles: 
+
+Básico: notas entre 1 y 6
+
+Avanzado: 7 y 10.
+
+
+En el caso, de que alguno de los cursos queda con un solo estudiante, el mismo deberá pasar al otro curso, debido a que se considera de gran importancia el diálogo entre pares para el aprendizaje de un idioma.

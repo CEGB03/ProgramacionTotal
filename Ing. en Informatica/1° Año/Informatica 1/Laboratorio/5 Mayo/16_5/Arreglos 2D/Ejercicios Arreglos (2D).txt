@@ -1,0 +1,18 @@
+	1. Desarrollar un algoritmo que arme un arreglo de 10x10 de números aleatorios. Una vez cargado el arreglo, el programa deberá mostrar un menú de opciones:
+   a. calcular el promedio.
+   b. solicitar un numeroybuscar cuantas veces esta ese numero en el arreglo.
+   c. mostrar solo los valores pares
+   d. mostrar todos los valores.
+	2. Crear un programa que arme un arreglo de 5x5 de números aleatorios pares. Luego muestre el arreglo resultante.
+	3. Programe un sistema de facturación, donde emita las facturas de un negocio.
+   Para ello primero deberá cargar los siguientes datos por cada articulo (código, precio unitarioycantidad) en un arreglo    (máximo5filas)
+	Codigo		|Precio Unitario			|Cantidad		|Subtotal
+	1		|4					|2			|8
+	2		|2					|1			|2
+	3		|1					|3			|3
+
+	Una vez, cargado todos los artículos en la factura,el programa calculará cada uno de los subtotalesyel total del    montoaabonar por el cliente. Luego, el sistema
+   solicita que se ingrese la forma de pago (efectivo, débitootarjeta). Si es efectivoyeste no es pago exacto, el programa    deberá calcular el vuelto,yen el caso de la
+   tarjeta de crédito calcularysumar el recargo del 5%. Finalmente mostrar la factura.
+
+	Nota. Recordar que los arreglos se definen con un solo tipo de dato, con lo cual en este caso el arreglo será del    tipo float.

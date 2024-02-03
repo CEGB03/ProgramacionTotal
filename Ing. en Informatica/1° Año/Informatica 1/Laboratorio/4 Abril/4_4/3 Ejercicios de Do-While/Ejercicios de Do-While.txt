@@ -1,0 +1,30 @@
+Realizar los pseudocodigos o diagrama de flujo y códigos en c++
+
+	1. Realizar un algoritmo que solicite las edades de las personas, y luego obtenga la edad promedio. La cantidad de personas que se registran se desconoce.
+
+
+	2. Realizar un algoritmo para determinar la cantidad de números positivo y negativos que han sido ingresados.
+
+
+	3. Un estudiante esta aprendiendo las tablas de multiplicar del 1 al 10,  entonces realice un programa que obtenga dos números aleatorios entre el 1 y 10 y así compone una multiplicación. Luego el estudiante ingresa el resultado, y el programa deberá evaluar si es correcto o no. En caso de que sea incorrecto brindar la solución. Después el programa preguntara si desea seguir practicando. Si el estudiante responde Si 'S' el programa genera otro calculo, en caso de que diga que No 'N' se dará por terminada la sesión de preguntas y mostrara la cantidad de preguntas en total y cuantas respuestas fueron correctas. 
+
+
+	4. Un circo desea agilizar los tiempos de espera de los clientes para la compra de entradas, para ello, se le solicita que elabore un programa de venta de ticket de entradas. El programa debe solicitar al usuario que ingrese todas las edades del grupo familiar, hasta que ingrese cero (0), luego calcular y mostrar el monto total a pagar, de acuerdo a los siguientes precios: 
+
+   Menores de 5 años gratis.
+   Entre 5 y 15 años inclusive $20.
+   Mayores de 15 años $40.
+
+
+	5. Crear un menú de opciones con las siguientes operaciones: 
+
+   a. Elevar a la potencia de 2 un numero.
+
+   b. Raíz cuadrada de un numero.
+
+   c. Raíz cubica de un numero. 
+
+   d. Calcular el seno, coseno y tangente de un angulo.
+
+Nota: Utilizar la librería de matemática. #include <math.h> En la sección de librerías encontraran ejemplos de ellos.
+

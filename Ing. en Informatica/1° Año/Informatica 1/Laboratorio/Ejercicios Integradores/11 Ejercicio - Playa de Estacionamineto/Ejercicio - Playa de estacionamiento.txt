@@ -1,0 +1,33 @@
+Práctico 
+
+Programe el siguiente ejercicio implementando:
+
+ARREGLOS
+FUNCIONES CON PASO POR VALOR Y PASO POR REFERENCIA, CON RETORNO DE VALOR Y SIN RETORNO. 
+NO está permitido el uso de VARIABLES GLOBALES.
+Espeficicación
+
+Una playa de estacionamiento, con una capacidad de 10 lugares, desea gestionar las estadias de los vehiculos. Para ello se solicita que genere un menu de opciones con las distintas operaciones del negocio.
+
+a. Registrar la estadia de un vehiculo. Por cada auto se registran los tres numeros de su patente, la cantidad de minutos de estacionamiento.
+
+Lugar en playa   Patente     Cant. min.      Importe 
+1                         502         50
+2                         200         120
+
+
+b. Generar ticket. En esta funcion se solicita buscar por patente del cliente, llamar a la funcion calcular importe siendo que el costo por hora es de $150 y finalmente mostrar el ticket:
+
+
+TICKET
+Playa: 1  
+Patente: 502      
+Tiempo: 50 min     
+Importe: $ 125       
+Con cuanto va abonar? $150                                
+Vuelto: $25
+Notese, que el sistema pregunta con cuanto va abonar el cliente, y calcula el vuelto.
+
+
+c. Mostrar el listado de estadias y el monto recaudado en el dia por la playa. 
+
