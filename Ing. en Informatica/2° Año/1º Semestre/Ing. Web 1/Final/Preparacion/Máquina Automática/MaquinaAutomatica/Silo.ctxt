@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Silo
+comment1.params=ingredienteAlmacenado\ capacidadMaxima
+comment1.target=Silo(Ingrediente,\ int)
+comment2.params=ingredienteAlmacenado
+comment2.target=Silo(Ingrediente)
+comment3.params=
+comment3.target=Ingrediente\ getTipoIngredienteAlmacenado()
+comment4.params=cantidadAgregada
+comment4.target=void\ agregar(int)
+comment5.params=cantidadAExtraer
+comment5.target=void\ extraer(int)
+numComments=6

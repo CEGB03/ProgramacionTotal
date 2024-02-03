@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Producto
+comment0.text=\r\n\ Clase\ de\ modela\ un\ producto\ que\ se\ vende\ en\ un\r\n\ supermercado\r\n\ \r\n\ @author\ Emiliano\ Daniele\ \r\n\ @version\ 1.0\r\n
+comment1.params=tipo\ marca\ precio
+comment1.target=Producto(TipoProducto,\ java.lang.String,\ java.lang.Double)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Producto\r\n\ \r\n\ @param\ \ \ tipo\ \ \ \ El\ tipo\ de\ producto\r\n\ @param\ \ \ marca\ \ \ La\ marca\ del\ producto\r\n\ @param\ \ \ precio\ \ El\ precio\ del\ producto\r\n
+comment2.params=
+comment2.target=java.lang.String\ getDetalles()
+comment2.text=\r\n\ Devuelve\ un\ string\ con\ los\ detalles\ del\ producto\r\n
+comment3.params=
+comment3.target=TipoProducto\ getTipo()
+comment4.params=
+comment4.target=java.lang.String\ getMarca()
+comment5.params=
+comment5.target=java.lang.Double\ getPrecio()
+comment6.params=tipo
+comment6.target=void\ setTipo(TipoProducto)
+comment7.params=marca
+comment7.target=void\ setMarca(java.lang.String)
+comment8.params=precio
+comment8.target=void\ setPrecio(java.lang.Double)
+numComments=9

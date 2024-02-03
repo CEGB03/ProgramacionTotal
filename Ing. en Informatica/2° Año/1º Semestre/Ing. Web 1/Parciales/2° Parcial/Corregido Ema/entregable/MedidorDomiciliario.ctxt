@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=MedidorDomiciliario
+comment1.params=coordenadas
+comment1.target=MedidorDomiciliario(CoordenadaGPS)
+comment2.params=
+comment2.target=TipoMedidor\ getTipoMedidor()
+numComments=3

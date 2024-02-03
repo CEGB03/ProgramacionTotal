@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CapacidadExcedidaException
+comment0.text=\r\n\ Excepcion\ para\ falla\ en\ capacidad\ del\ recipiente\r\n
+comment1.params=
+comment1.target=CapacidadExcedidaException()
+comment2.params=message
+comment2.target=CapacidadExcedidaException(java.lang.String)
+numComments=3

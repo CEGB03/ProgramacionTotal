@@ -1,0 +1,27 @@
+Comentario:
+0: Running test_Catalogo_indice...PASS
+1: Running test_Amasadora_verificarDisponibilidadDeIngrediente_cantidadInvalido...PASS
+2: Running test_Amasadora_iniciarProceso_ok_assertContenidoContenedores...FAIL
+3: Running test_Amasadora_verificarDisponibilidadDeIngrediente_ok...PASS
+4: Running test_Amasadora_iniciarProceso_ingredientesFaltantes...PASS
+5: Running test_Amasadora_extraerIngrediente_cantidadInvalido...PASS
+6: Running test_Amasadora_verificarDisponibilidadDeIngrediente_IngredienteInvalido...PASS
+7: Running test_Amasadora_getFaltantes_conFaltante...PASS
+8: Running test_Amasadora_Constructor_ok...PASS
+9: Running test_Amasadora_iniciarProceso_ok_assertPesoLote...FAIL
+10: Running test_Amasadora_finalizarProceso_ok_assertEstado...PASS
+11: Running test_Amasadora_iniciarProceso_ok_assertEstado...FAIL
+12: Running test_Amasadora_finalizarProceso_ok_assertPesoLote...PASS
+13: Running test_Amasadora_iniciarProceso_ok_assertHoraFinAmasado...FAIL
+14: Running test_Silo_Constructor_invalido...FAIL
+15: Running test_Silo_Constructor_ok...PASS
+16: Running test_Amasadora_getFaltantes_sinReceta...PASS
+17: Running test_Amasadora_getFaltantes_sinFaltante...PASS
+18: Running test_Amasadora_extraerIngrediente_IngredienteInvalido...PASS
+19: Running test_Amasadora_encender_apagar...PASS
+20: Running test_Amasadora_iniciarProceso_sinReceta...PASS
+21: Running test_Amasadora_extraerIngrediente_ok...PASS
+22: Running test_Amasadora_finalizarProceso_ok_assertHoraFin...PASS
+23: Running test_Amasadora_finalizarProceso_estadoInvalido...PASS
+24: Running test_Amasadora_iniciarProceso_estadoInvalido...FAIL
+Nota: (25/33) 75.75757575757575

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Lectura
+comment1.params=m\ f
+comment1.target=Lectura(Medidor,\ Fecha)
+comment2.params=
+comment2.target=Fecha\ getFechaDeLectura()
+comment3.params=
+comment3.target=java.lang.String\ getMedidorId()
+comment4.params=
+comment4.target=int\ getValorDeLectura()
+numComments=5
