@@ -1,0 +1,74 @@
+Una empresa dedicada al rubro de las telecomunicaciones brinda servicios de internet a pymes locales. El costo unitario es de 1 GB = $1000. Se solicita crear un programa que permita llevar a cabo la gestión de los consumos y facturación. Para ello se tiene la siguiente tabla: (a modo de ejemplo)
+
+
+Código de
+
+ cliente
+
+Cant. de GB consumidos
+
+Costo total de lo consumido ($)
+
+Día de pago del mes
+
+Recargo
+
+Monto total por servicio ($)
+
+1
+
+10
+
+
+8
+
+
+
+2
+
+50
+
+
+12
+
+
+
+…
+
+
+
+
+
+
+10
+
+
+
+
+
+
+
+Realice las siguientes funciones:
+
+Crear una función que permita la carga de los datos (código de cliente, cantidad de GB consumidos, día de pago del mes). Cargar 10 clientes. Los datos del código del cliente se colocan de manera consecutiva.
+
+Nota: para agilizar el proceso de carga pueden completarse con datos aleatorios para la cantidad de GB y día de pago del mes.
+
+Crear una función que permita calcular si tiene o no recargo según el día de pago del mes. Si el día de pago es menor o igual a 10, el recargo es cero, sino es $100 por día de retraso. 
+
+Crear una función que calcule el costo total de lo consumido (costo = cant de GB consumidos * precio unitario). 
+
+
+Crear un menú de opciones con las siguientes funciones:
+
+Mostrar la factura de un cliente. Esta función debe solicitar un código de cliente y luego mostrar su factura.
+
+Mostrar la recaudación de la empresa. 
+
+Mostrar el cliente que más ha consumido. 
+
+Mostrar el consumo y las facturas de los clientes. (Mostrar todo el arreglo).
+
+
+
+Para la resolución de este ejercicio usar los ejercicios utilizar arreglos y funciones con paso por valor y paso por referencia, con retorno de valor y sin retorno. No está permitido el uso de variables globales.

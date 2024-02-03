@@ -1,0 +1,37 @@
+	4. Crear una estructura llamada persona con sus atributos nombre, apellido, fecha de nacimiento, dirección y teléfono. Tanto la dirección como la fecha de nacimiento son otras estructuras (estructura anidada). Cargue con datos y luego muéstrelos.
+
+	5. Tomar el ejercicio anterior y modificarlo para que se cree un vector de estructuras de tamaño 5. Cargar valores y mostrar. 
+
+	6. Crear una estructura llamada alumno con sus atributos persona (del anterior), y un arreglo de dos dimensiones de las materias que cursa y la nota de final. (Ej. historial académico). Cargue con datos y luego muéstrelos.
+
+	7. Crear una estructura llamada producto con los siguientes atributos código, nombre, stock, cantidad vendida. Crear un vector de estructuras del tipo producto (max 10). Luego crear un menu de opciones: 
+
+	a. mostrar todos los productor
+	b. cargar una venta (debe buscar y restar el stock y sumar la cant vendida)
+	c. reponer mercadería (debe buscar y sumar el stock)
+	d. ordenar por productos mas vendidos
+	e. ordenar por productor con menor stock
+Utilice funciones.
+
+	8. Crear un programa que pida al usuario los nombres, edades y alturas de 10 jugadores. Posteriormente le presentará un menú que le permita:
+
+	a. Listar los nombres de los jugadores
+	b. Listar las alturas de los jugadores
+	c. Listar las edades de los jugadores
+Utilice funciones.
+
+	9. Implementar en C un programa que maneje un array de estructuras para almacenar las fechas de cumpleaños de 20 amigos. Los datos a almacenar sobre cada amigo son nombre, día, mes y año. El programa debe indicarnos cuántos de nuestros amigos cumplen los años un día y mes determinados introducidos por teclado.
+
+	10. Una  fábrica  de  tornillos  nos  ha  solicitado  desarrollar  un  programa  en  C  que permita  obtener  e  imprimir  las  estadísticas  de  una  determinada  muestra  de tornillos.  Para  ello  nos  indican  que  cada  tornillo  viene  caracterizado  por  su longitud  y  su  diámetro  y  que  ambas  medidas deben  almacenarse  en  un  registro con dos campos. Desarrollar un programa en C que:
+
+	a. Solicite  al  usuario  los  datos  de  una   muestra  de   tornillos  (longitud  y diámetro) y los almacene en un vector 
+	b. A  partir  de  los  datos  introducidos  calcule  y  muestre  por  pantalla  la  media de las longitudes y la media de los diámetros.
+
+	Nota:  El  tamaño  de  la  muestra  se  definirá  como  una  constante  denominada TAMANIO_MUESTRA
+
+	11. Un negocio de paquetería con entregas a domicilio nos ha solicitado un programa para almacenar datos sobre las calles y las viviendas de su Ciudad. Cada calle se identificará por dos elementos: Nombre y viviendas que tiene. Además, cada vivienda estará identificada por el número que ocupa en la calle y la planta. Admitiendo que la ciudad tiene 5 calles y cada calle tiene cinco viviendas, desarrollar un programa que permita al usuario: 
+
+	a.  Almacenar los datos sobre las calles y las viviendas de la ciudad.
+	b. Ver toda la información sobre una calle: número y viviendas que tiene
+
+	Nota: Por simplicidad se admitirá que los nombres de las calles no contienen espacios.

@@ -1,0 +1,30 @@
+Estructuras
+1. Crear un programa que pida los siguientes datos de una canción Artista, Titulo, Duración (en segundos),Tamaño del archivo (en KB). Crear una estructura que almacene datos de la canción y luego los muestre por pantalla.
+
+2. Ampliar el programa del ejercicio anterior, para que almacene datos de hasta 3 canciones en un vector de estructura. Luego crear un menú que permita las opciones (cada una es una función) 
+
+a. agregar una nueva canción
+
+b. mostrar todas las canciones
+
+c. buscar una canción por titulo
+
+3. Crear un programa que gestione el listado de los empleados de la empresa. Para ello crear una estructura Empleado, en la cual contenga los siguientes datos legajo, puesto de trabajo, sueldo y anios_antiguedad. Luego, crear un vector de estructuras del tipo empleado de tamaño 3. Crear un menú que permita las opciones 
+
+a. agregar un empleado
+
+b. mostrar todos los empleados
+
+c. buscar un empleado por legajo para ver si existe o no.
+
+d. actualizarSueldo(float porcentaje)
+
+e. ordenar por sueldo
+
+f. ordenar por anios_antiguedad
+
+4. Crear una clase Actividad, las mismas corresponden a las actividades de un gym. Atributos nombre, cupo, dias de la semana, horario, cant_inscriptos. Funciones mostrar, buscar, mostrar actividades que aun no tienen el cupo lleno.
+
+
+
+Nota Para comparar dos string utilizar la función cadena1.compare(cadena2) de la librería string. Por ejemplo if(cadena1.compare(cadena2)==0) si es 0 (cero) significa que son iguales los string. 

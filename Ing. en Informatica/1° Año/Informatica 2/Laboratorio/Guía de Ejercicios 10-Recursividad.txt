@@ -1,0 +1,31 @@
+	1. Realizar un programa que solicite el ingresar de un número y mostrar su equivalente en binario usando una función recursiva. Por ejemplo
+	SISTEMA DECIMAL SISTEMA BINARIO
+
+		2 10
+
+		3 11
+
+		4 100
+
+		5 101
+	2.Determinar la suma de los primeros n números naturales. Por ejemplo Ingresa 3. Entonces debería mostrar 1+2+3=6.
+	3. Determinar la potencia de un número con funciones recursivas. Ejemplo 5 a la 3 =125
+	4. Determinar el producto de dos números de manera recursiva. Por ejemplo
+		3  4 = 12
+
+		3+(33) = 12
+
+		3+(3+(32)) = 12
+
+		3+(3+(3+(31)))=12
+	5. Calcular el Máximo Común Divisor de dos números. Ejemplos
+
+		MCD(15,20)=5
+
+		MCD(6,9)=3
+
+		MCD(16,21)=1
+	6. Ingresar un número y mostrar el número de forma invertida ejemplo 123 - 321. Nota Se está utilizando el sistema decimal, es por ello que utilizamos el 10.
+	7. Ingresar una palabra y determinar si es palindroma o no. (Un palíndromo es  una palabra, número o frase que se lee igual hacia adelante que hacia atrás.  Si se trata de un número, se llama capicúa. Ejemplo Neuquen)
+	8. Obtener los números primos del 1 al 100, es decir que debe imprimir los siguientes números 1-2-3-5-7-11-13-17-19-23-29-31-37-41-43-47-53-59-61-67-71-73-79-83-89-97
+	9. Cargar un arreglo con 10 valores y ordenarlo con el método recursivo quick sort.

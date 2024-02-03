@@ -1,0 +1,90 @@
+Una inmobiliaria brinda servicios de gestión de edificios y barrios cerrados. Las expensas se pagan de acuerdo a los m2 de la vivienda (1 m2 = $50). Se solicita crear un programa que permita llevar a cabo la gestión del cobro de las expensas. Para ello se tiene la siguiente tabla (a modo de ejemplo)
+
+
+Cód. de Residente | Cant. m2 | Monto de las expensas ($) | Día de pago del mes | Recargo|Monto 		  |	     |				 |		       |        |total 		  |	     |				 |		       |        |($)
+		  |	     |				 |		       |        |
+	1 	  | 	70   | 		3500 		 | 	8 	       | 0 	| 3500
+	2	  |    150   |		7500 		 |	11	       |100	|7600
+	…
+	10
+
+Realice las siguientes funciones
+
+	Crear una función que permita la carga de los datos (código de cliente, cantidad de m2, día de pago del mes). Cargar 10 residentes. Los datos del código del residente se colocan de manera consecutiva y automática.
+
+Nota para agilizar el proceso de carga pueden completarse con datos aleatorios para la cantidad de m2  (entre 30 y 500) y día de pago del mes (entre el 1 y 31).
+
+	Crear una función que permita calcular si tiene o no recargo según el día de pago del mes. Si el día de pago es menor o igual a 10, el recargo es cero, sino es $100 por día de retraso. 
+
+	Crear una función que calcule el monto de las expensas por vivienda (monto = cant de m2  precio unitario por m2).
+
+	Crear una función que calcule el monto total (monto total = monto + recargo)
+
+
+		Crear un menú de opciones con las siguientes funciones
+
+1. Mostrar la factura de un residente. Esta función debe solicitar un código de cliente y luego mostrar su factura.
+
+2. Mostrar la recaudación de la inmobiliaria. 
+
+3. Mostrar el residente que más ha pagado de expensas.
+
+4. Mostrar todas las facturas de los clientes emitidas. (Mostrar todo el arreglo).
+
+
+
+Para la resolución de este ejercicio usar los ejercicios utilizar arreglos y funciones con paso por valor y paso por referencia, con retorno de valor y sin retorno. No está permitido el uso de variables globales.
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#define FILAS_RESIDENTES 10
+#define COLUMNAS_RESIDENTES 6
+void Cargas(int [][COLUMNAS_RESIDENTES]);
+void Recargo(int [][COLUMNAS_RESIDENTES]);
+void Expensas(int [][COLUMNAS_RESIDENTES]);
+void Monto_Total(int [][COLUMNAS_RESIDENTES]);
+int main()
+{
+	int Residente=0, M2=0, P_M2=0, Recargo=0, Total=0, Dia_P=0, Monto_R=100,
+		Expensas=0, Seleccion=0,
+		Residentes[FILAS_RESIDENTES][COLUMNAS_RESIDENTES];
+	char Salida=' ';
+	do
+	{
+	printf("Bienvenido al Menu de Seleccion.\nSeleccione Segun corresponda.\n\n");
+	printf("1. Mostrar la factura de un residente. Esta función debe solicitar un código de cliente y luego mostrar su factura.\n");
+	printf("2. Mostrar la recaudación de la inmobiliaria.\n");
+	printf("3. Mostrar el residente que más ha pagado de expensas.\n");
+	printf("4. Mostrar todas las facturas de los clientes emitidas. (Mostrar todo el arreglo).\n");
+	printf("5. Para salir\n");
+	scanf("%d",&Seleccion);
+	switch(Seleccion)
+	{
+	case 1:
+		printf("Opcion 1\n");
+		break;
+	case 2:
+		printf("Opcion 2\n");
+		break;
+	case 3:
+		printf("Opcion 3\n");
+		break;
+	case 4:
+		printf("Opcion 4\n");
+		break;
+	case 5:
+		printf("Adios\n");
+		break;
+	default:
+		printf("Opcion erronea, Vuelva a intentar\n");
+	}
+	printf("¿Desea volver al menu de Seleccion?\n");
+	scanf(" %c",&Salida);
+	} while(Salida=='s' || Salida=='S');
+	printf("Saliste, Adios.\n");
+	system("pause");
+	return 0;
+}
+

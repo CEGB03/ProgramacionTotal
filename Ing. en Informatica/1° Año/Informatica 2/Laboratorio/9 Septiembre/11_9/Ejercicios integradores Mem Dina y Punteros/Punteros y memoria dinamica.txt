@@ -1,0 +1,62 @@
+Punteros y memoria dinamica
+1. Escribir un programa donde se solicite el tamaño del vector (entre 5 y 10) y reservar memoria. Luego al finalizar la ejecucion del programa liberarla. Luego crear las siguientes funciones
+
+- cargarNumero(), que rellene aleatoriamente el vector con números entre el 1 y 10 utilizando punteros.
+
+- mostrarNumero(), que muestre el vector anterior por medio de punteros los valores del vector y las direcciones en las cuales los valores sean mayores a 5 inclusive.
+
+- sumarNumero() que sume todos los números del vector de manera recursiva.
+
+2. Escribir un programa utilizando punteros y funciones en la cual se desea cargar en un vector con las ventas diarias de un negocio, 3 como máximo. La carga finaliza cuando el monto igual a cero.  Crear una estructura Factura, en donde tenga los siguientes atributos numero, fecha y monto total. Además, se pide
+
+- Cantidad de ventas cargadas.
+
+- Calcular la recaudación del día de manera recursiva.
+
+- Guardar los datos en un archivo.
+
+3. Escribir un programa utilizando punteros y funciones en la cual se desea cargar en un vector los valores que toma un sensor de temperatura colocando en una pileta de natación, que debe estar entre los 34 y 36 grados siendo esta la temperatura óptima para nadar. El sensor puede tomar valores entre 0 y 50 inclusive, cada 1 hora. Cuando el sensor toma un valor menor a 34 activa la caldera para calentar el agua. Reservar un espacio de memoria de 24, una para cada temperatura. Se pide
+
+- Cantidad de veces que se activó la caldera en un día.
+
+- Calcular el promedio de temperatura del agua en todo un día.
+
+- Ordenar las temperaturas con quick sort.
+
+- Guardar los datos en un archivo.
+
+
+
+Escribir un programa utilizando punteros y funciones en la cual se desea cargar en un vector con las ventas diarias de un negocio, 10 como máximo. La carga finaliza cuando el monto igual a cero. Además, se pide
+
+Cantidad de ventas cargadas.
+
+Calcular la recaudación del día.
+
+Guardar los datos en un archivo.
+
+Utilizar funciones y punteros en este ejercicio.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Escribir un programa que cree un vector de 5 valores aleatorios entre el 1 al 10. Luego crear las siguientes funciones
+
+Mostrar todos los valores del vector anterior por medio de punteros.
+
+Mostrar los valores mayores a 5 por medio de punteros y su correspondiente dirección.
+
+Calcular la sumatoria de los valores.
+
+Guardar en un archivo los resultados anteriores (los puntos a, b y c)
+
+Utilizar funciones y punteros en este ejercicio.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Escribir un programa donde se solicite el tamaño del vector y reservar memoria. Luego al finalizar la ejecución del programa liberarla.  (malloc, sizeof). El tamaño debe ser entre 1 y 10, caso contrario debe mostrar el mensaje de error y solicitar nuevamente el ingreso de otro número. Luego crear las siguientes funciones
+rellenarVector() que rellene aleatoriamente el vector con números del 1 al 20 utilizando punteros.
+
+mostrarVector() que muestre el vector anterior por medio de punteros los valores del vector y sus correspondientes direcciones.
+
+sumar() que sume los primeros “n” valores del vector de manera recursiva.
+
+Utilizar funciones y punteros en este ejercicio.

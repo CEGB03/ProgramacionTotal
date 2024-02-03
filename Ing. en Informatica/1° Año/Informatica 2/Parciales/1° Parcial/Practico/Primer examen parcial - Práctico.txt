@@ -1,0 +1,14 @@
+Primer examen parcial - Práctico
+1. Desarrolle un programa que guarde 20 elementos de valores enteros aleatorios (entre 1 y 50) en un puntero. Luego un menu de opciones con las siguientes funciones:
+a. Mostrar todos los valores con su respectiva dirección.
+b. Mostrar los valores pares.
+c. Sumar los valores impares.
+d. Contar las cantidad de valores que están entre 10 y 15.
+
+Nota: utilice punteros y funciones para realizar este ejericio.
+
+2. Desarrolle un programa que permita reservar espacio para 10 caracteres, los llene con 10 valores aleatorios y los muestre. Luego, el programa solicita al usuario que ingrese cuántos caracteres desea agregar a la lista de elementos ya generada. El programa agrega espacio de memoria y solicita el ingreso de los nuevos valores por teclado. Por último, mostrar la lista resultante.
+
+Los nombres de los archivos deben seguir la siguiente nomenclatura: apellido_nombre_1.cpp y apellido_nombre_2.cpp
+
+Los nombres de archivos no deben contener acentos, ñ, etc. Escribir todo en minuscula separado en guión bajo

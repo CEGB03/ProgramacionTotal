@@ -1,0 +1,27 @@
+Guía de Ejercicios 3
+
+1. Cree un programa que permita reservar memoria para n valores enteros. Luego cargar los n valores, imprimirlos y liberar la memoria.
+
+2.  Cree un programa que permita reservar memoria para n valores decimales (float). Luego cargar los n valores, imprimirlos y liberar la memoria.
+
+3. Cree un programa que permita reservar memoria para n caracteres (char). Luego cargar los n caracteres, imprimirlos y liberar la memoria.
+
+4. Cree un programa que permita reservar memoria para n caracteres (char). Luego cargar los n caracteres e imprimirlos por pantalla. El usuario desea agregar mas caracteres, por lo que ingresa la n cantidad de caracteres a agregar. Luego cargar los n caracteres, imprimirlos y finalmente liberar la memoria.
+
+5. Modificar el codigo para crear una función mostrar los valores. 
+
+6. Crear un programa que pregunte al usuario cuántos caracteres desea introducir, reserve espacio para dicho número de caracteres, le permita al usuario introducirlos desde teclado. Por último se los muestre todos seguidos y en el orden inverso al que fueron introducidos. Crear funciones para cargar, mostrar en orden y mostrar en orden inverso. Utilizar funciones.
+
+7. Crear un programa que pregunte al usuario cuántos caracteres desea introducir, reserve espacio para dicho número de caracteres, le permita al usuario introducirlos desde teclado y luego mostrar por pantalla los valores. Luego, el programa pregunta cuántos caracteres desea agregar a la lista de elementos ya introducida, agrega espacio de memoria y solicita el ingreso de los nuevos valores. Por último, mostrar la lista resultante. Utilizar funciones.
+
+8. Crear un programa en la cual contenga un menú de opciones con distintas operaciones 
+
+            a. Reserva de memoria e introducción de datos enteros
+
+            b. Agregar reserva de memoria e introducción de nuevos datos enteros
+
+            c. Mostrar los datos en el orden y orden invertido al que fueron introducidos
+
+9.  Cree un programa que permita reservar memoria para arreglo de enteros 2x3. Luego cargar los valores de manera aleatoria. Realizar un menu de opciones que muestre la sumatoria, muestre todos los valores y al finalizar el programa libere la memoria.
+
+10. Elabore una especificación y su solución.
