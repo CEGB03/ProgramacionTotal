@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Portal de Strange</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon_io/favicon.ico">
+</head>
+<body>
+    <div id="Portal">
+    </div>
+
+    <script>
+    /*
+    let Portal= document.getElementById('Portal');
+        
+        for (let i = 0; i<360; i++){
+            let Chispa = document.createElement("div");
+            Chispa.className = "Chispa";
+            Chispa.style.rotate = i * 2+ 'deg';
+            let ChispaTranslation = Math.random() * (120 - 100) + 100;
+            Chispa.style.transform = 'traslate('+ChispaTranslation+'px)';
+                    
+            Portal.appendChild(Chispa);
+        }
+    */
+    let Cortal = document.getElementById('Portal');
+    for (let i = 0; i < 360; i++) {
+        let Chispa = document.createElement("div");
+        Chispa.className = "Chispa";
+        let ChispaTranslation = Math.random() * (120 - 100) + 100;
+        Chispa.style.transform = 'rotate(' + (i * 2) + 'deg) translate('+ChispaTranslation+'px)';
+        Portal.appendChild(Chispa);
+    
+    }
+    
+    </script>
+</body>
+</html>

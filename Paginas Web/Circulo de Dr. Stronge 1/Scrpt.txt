@@ -1,0 +1,29 @@
+		Copiado
+
+let portal = document.getElementById('portal');
+for (let i = 0; i < 360; i++) {
+    let chispa = document.createElement("div");
+    chispa.className = "chispa";
+    let chispaTranslation = Math.random() * (120 - 100) + 100;
+    chispa.style.transform = 'rotate(' + (i * 2) + 'deg) translate('+chispaTranslation+'px)';
+    portal.appendChild(chispa);
+    
+}
+
+		Por mi
+let Portal= document.getElementById('Portal');
+        
+for (let i = 0; i<360; i++){
+	let Chispa = 
+	document.createElement("div");
+	Chispa.className = "Chispa";
+	Chispa.style.rotate = i * 2+ 'deg';
+	let ChispaTranslation = 
+			Math.random() * 
+			(120 - 100) + 100;
+	Chispa.style.transform = 
+		'traslate('+ChispaTranslation+'px)';
+            
+            
+	Portal.appendChild(Chispa);
+}

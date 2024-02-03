@@ -1,0 +1,28 @@
+
+#encabezado{
+    background: rgb(114, 161, 231);
+}
+#encabezado ul{
+    list-style: none;
+    list-style: none;
+    overflow: hidden;
+}
+#encabezado li{
+    float: left;
+    margin: 10px;
+    color: gold;
+}
+#encabezado ul a{
+    text-decoration: none;
+    color: gold;
+}
+#encabezado ul a:hover{
+    color: #f99;
+}
+#Cuerpo{
+    background: #f99;
+    margin: 20px 20px;
+    padding: 30px;
+    width: 55%;
+    font-size: 25px;
+}

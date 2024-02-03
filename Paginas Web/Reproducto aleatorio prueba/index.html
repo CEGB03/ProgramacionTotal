@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba del aleatorio</title>
+    <link rel="icon" href="favicon_io/favicon.ico">
+</head>
+<body>
+    <audio controls="controls"> 
+        <source src="music/Chances.mp3"/>
+    </audio>
+
+    <hr>
+
+    var lista = [
+    ['nirvana.ogg','Nirvana - Lithium (Live at Reading 1992)'],
+    ['blur.ogg','Blur - Country House'],
+    ['weezer.ogg','Weezer - Buddy Holly']];
+
+    <hr>
+
+    var listado = document.getElementById("listado");
+    for (x=0;x<lista.length;x++) {
+        var item = document.createElement("li");
+        item.innerHTML = lista[x][1];
+        listado.appendChild(item);
+    }
+
+    <hr>
+    
+    numero = Math.round(Math.random()*(lista.length-1));
+
+    
+    
+</body>
+</html>

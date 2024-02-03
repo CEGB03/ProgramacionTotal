@@ -1,0 +1,9 @@
+#Fondo{
+    background-color: goldenrod;
+}
+
+#Fondo li{
+    background-color: rgb(247, 47, 47);
+    list-style: none;
+
+}
