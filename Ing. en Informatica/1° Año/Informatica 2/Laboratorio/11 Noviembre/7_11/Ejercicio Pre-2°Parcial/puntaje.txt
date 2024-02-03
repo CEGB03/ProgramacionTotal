@@ -1,0 +1,3 @@
+Nombre	Puntaje
+ema	5
+mati	-1

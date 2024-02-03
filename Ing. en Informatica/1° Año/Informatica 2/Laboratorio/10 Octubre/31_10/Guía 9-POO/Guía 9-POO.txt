@@ -1,0 +1,13 @@
+1. Crear en código c++ una clase Vehículo y luego un vector de dos objetos.
+
+Clase Vehiculo
+
+Luego, crear una clase Principal en donde se declare e inicialice un vector con 2 objetos (con los datos del diagrama). Crear y ejecutar las siguientes funciones mostrarListado, buscarPorPatente.
+
+2. Crear una clase Libro con sus atributos (a elección) y métodos (setter(), getter(), toString()). Luego, crear una clase Principal en donde se declare un vector de objetos Libro. Luego llenar este vector con datos y llamar a las  funciones mostrarListado y calcularSumaPrecio. Hacer el diagrama de clase de Libro.
+
+3. Crear una clase Mascota con sus atributos (tipo_animal, raza, nombre_mascota, persona_resposable_edad) y métodos (setter(), getter() y toString()). Luego, crear una clase Principal en donde se declare un vector de objetos Mascota. Luego llenar este vector con datos y llamar a las  funciones mostrarListado y MostrarListado por tipo_animal. Hacer el diagrama de clase de Mascota.
+
+4. Crear una clase Actividad, las mismas corresponden a las actividades de un gym. Atributos: nombre, cupo, dias de la semana, horario, cant_inscriptos. Funciones: mostrar, buscar, mostrar actividades que aun no tienen el cupo lleno.
+
+Los diagramas en formato jpg, png o pdf

@@ -1,0 +1,48 @@
+	1. Crear un programa con el siguiente menu de opciones 
+
+    Agregar un nodo a la cola. (se deben agregar 5 valores)
+    Borrar el primer nodo de la cola.
+    Imprimir cola.
+    Suma de los valores de la cola.
+
+	2. Crear un programa en la cual cargue una cola de 5 numeros aleatoriamente (entre 1 y 10), luego los muestre y muestre los valores pares.
+
+	3. Crear un programa con el siguiente menu de opciones 
+
+    Agregar un nodo a la cola. (se deben agregar 5 valores)
+    Borrar el primer nodo de la cola.
+    Imprimir cola.
+    Tamaño de la cola
+    Valor del frente de la cola
+
+	4. Crear un programa con el siguiente menu de opciones 
+
+    Agregar un nodo a la cola.
+    Borrar el primer nodo de la cola.
+    Imprimir cola.
+    Cantidad de nodos en la cola.
+    Cantidades de letras mayusculas y minusculas en la cola.
+
+El usuario cargará la cola con letras mayusculas o minusculas. Nota Las letras en ASCII mayusculas estan entre el 65 a 90 y las minusculas entre  97 a 122 inclusive.
+
+	5. Desarrolle un programa que cargue una cola de numeros enteros aleatorios.  Luego realice un menu de opciones
+
+    Agregar un nodo a la cola. (cuando agrega un valor, el mismo no tiene que estar repetido en la cola)
+    Borrar el primer nodo de la cola.
+    Imprimir cola.
+
+	6. Elaborar un sistema de stock, en la cual posee una cola de productos con los siguientes atributos codigo, nombre, cantidad, precio lista. Desarrollar las siguientes funciones
+
+    Agregar un nuevo producto.
+    Borrar el primer nodo de la cola.
+    Mostrar el stock. 
+    Descontar stock.
+    Reponer stock.
+
+	7. Desarrollo un programa que cree una cola de vehiculos que pasan por un peaje, en la cual se deben registrar patente, marca, color, cantidad de ejes, precio, direccion. El precio es segun la cantidad de ejes. (1 eje = $100, 2 ejes = $150, 3 ejes = $200 y 4 ejes o mas $300). La direccion es a la que se dirige el vehiculo, en este caso puede ser de Norte a Sur o Sur a Norte. Luego, arme un menu de opciones que muestre lo siguiente 
+
+    Agregar un vehiculo a la cola
+    Borrar el primer nodo de la cola.
+    Mostrar todos los vehiculos. 
+    Mostrar los vehiculos por dirección
+    Mostrar los vehiculos por ejes. 
