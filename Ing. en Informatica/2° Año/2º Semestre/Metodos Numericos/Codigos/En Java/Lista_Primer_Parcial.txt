@@ -1,0 +1,13 @@
+Biseccion                   |       LISTO
+Falsa Posicion              |       LISTO
+Punto Fijo                  |       LISTO
+Newton-Rapshon              |       LISTO
+Secante                     |       LISTO
+LecturaMatricialArchivos    |       LISTO
+Eliminacion Gaussiana       |       LISTO
+Jacobi                      |       LISTO
+Gauss-Seidel                |       LISTO
+Interpolacion Polinomial    |       LISTO
+Interpolacion de Lagrange   |       LISTO
+Regresion Lineal            |       LISTO
+Regresion Polinomial        |       LISTO
