@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+}
+section{
+    text-align: center;
+    position: relative;
+    margin: 350px auto;
+}
+section .midl{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+.Envido{
+    border: none;
+    background-color: tomato;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+}
+.Envido:hover{
+    background-color: brown;
+}
+p{
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+.Truco{
+    border: none;
+    background-color: chocolate;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+}
+.Truco:hover{
+    background-color: coral;
+}
+.Respuesta{
+    border: none;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+}
+.Respuesta:hover{
+    background-color: darkblue;
+}

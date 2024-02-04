@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Principal
+comment1.params=nombre
+comment1.target=Principal(java.lang.String)
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=3

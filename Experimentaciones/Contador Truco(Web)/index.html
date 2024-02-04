@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contador Truco</title>
+</head>
+<body>
+    <section>
+        <div class="midl">
+            <div>   
+                <h1>Contador de Puntos del Truco.</h1>
+            </div>
+            <p>Puntos en Juego:</p>
+            <p id="contPuntosJuego"></p>
+            <p>Puntos Ellos:</p>
+            <p id="contPuntosEllos"></p>
+            <p>Puntos Nos:</p>
+            <p id="contPuntosNos"></p>
+            
+            <button id="siQuiero" class="Respuesta">Quiero</button>
+            <button id="noQuiero" class="Respuesta">No Quiero</button>
+            <button id="btnEnvi" class="Envido">Envido</button>
+            <button id="btnEnvinvi" class="Envido">Envido Envido</button>
+            <button id="btnReEnvi" class="Envido">Real Envido</button>
+            <button id="btnFaEnvi" class="Envido">Falta Envido</button>
+            <button id="btnTruco" class="Truco">Truco</button>
+            <button id="btnReTruco" class="Truco">Re Truco</button>
+            <button id="btnV4Truco" class="Truco">Vale 4</button>
+        </div>
+    </section>
+    <script>
+        var btnEnvi=document.getElementById('btnEnvi');
+        var btnEnvinvi=document.getElementById('btnEnvinvi');
+        var btnFaEnvi=document.getElementById('btnFaEnvi');
+        var btnReEnvi=document.getElementById('btnReEnvi');
+        var contPuntos=document.getElementById('contPuntosJuego');
+        var siQuiero=document.getElementById('siQuiero');
+        var noQuiero=document.getElementById('noQuiero');
+        var contPuntosNos=document.getElementById('contPuntosNos');
+        var contPuntosEllos=document.getElementById('contPuntosEllos');
+        var contar=0;
+        var contarE=0;
+        var contarN=0;
+        btnEnvi.onclick=function(){
+            contar+=2;
+            contPuntosJuego.textContent=contar;
+        }
+        btnEnvinvi.onclick=function(){
+            contar+=2;
+            contPuntosJuego.textContent=contar;
+        }
+        btnReEnvi.onclick=function(){
+            contar+=3;
+            contPuntosJuego.textContent=contar;
+        }
+        btnFaEnvi.onclick=function(){
+            contar=30-contarE;
+            contPuntosJuego.textContent=contar;
+        }
+        siQuiero.onclick=function(){
+            contPuntosNos.textContent+=contar;
+        }
+        noQuiero.onclick=function(){
+            if(contar%2==0){
+                contar=contar/2;
+                contarN=contar;
+                contPuntosNos.textContent+=contar
+            }
+            else{
+                contar=contar/2;
+                contar-=0.5;
+                contarN=contar;
+                contPuntosNos.textContent+=contar
+            }
+            contar=0;
+            contPuntosJuego.textContent=contar;
+        }
+        contar=0;
+    </script>
+</body>
+</html>
