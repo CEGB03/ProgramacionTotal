@@ -15,10 +15,10 @@ Este repositorio contiene una variedad de códigos y proyectos desarrollados por
 [Carpeta del Proyecto](Ing.%20en%20Informatica/2%C2%B0%20A%C3%B1o/2%C2%BA%20Semestre/Info%203/Proyecto_Info3/Proyecto-Informatica-III)
 
 ### Venta de Boletos de Conciertos
-[Carpeta del Proyecto](Codo%20a%20Codo%20Proyecto\TP_FontEnd_CodoaCodo4)
+[Carpeta del Proyecto](Codo%20a%20Codo%20Proyecto/TP_FontEnd_CodoaCodo4)
 
 ### Aplicación de Backend para Venta de Boletos de Conciertos
-[Carpeta del Proyecto](Codo%20a%20Codo%20Proyecto\TP_BackEnd_CodoaCodo4)
+[Carpeta del Proyecto](Codo%20a%20Codo%20Proyecto/TP_BackEnd_CodoaCodo4)
 
 ### Aplicación con placa DE0-Nano
 [Carpeta del Proyecto](Ing.%20en%20Informatica/2%C2%B0%20A%C3%B1o/2%C2%BA%20Semestre/Arquitectura/Proyecto-Arquitectura-I)
