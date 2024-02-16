@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=EGDE">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--NavBar Responsiva inicio-->
+	<link rel="stylesheet" href="/FrontEnd/css/navbar.css">
+	<!-- Icono para cuando se contrae la barra de navegación -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<!--NavBar Responsiva fin-->
+
+	<link rel="stylesheet" href="/FrontEnd/css/animacion.css">
+
+	<link rel="stylesheet" href="/FrontEnd/css/estilos.css">
+	<!--Formulario Responsivo-->
+	<link rel="stylesheet" href="/FrontEnd/css/formulario.css">
+    <link rel="icon" href="/FrontEnd/500148.ico">
+	<title>CONCIERTOS</title>
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo">Codo a Codo 4.0</label>
+		<ul>
+			<li><a href="index.html">Inicio </a></li>
+			<li><a href="biografia.html">Biografia</a></li>
+			<li><a href="formContacto.html">Contacto</a></li>
+			<li><a class="active" href="compraBoletos.html">Comprar Boletos</a></li>
+			<li><a href="fotos.html">Fotos</a></li>
+		</ul>
+	</nav>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h1>Conciertos BA 2024</h1>
+	<br>
+	<div id="formularioyTexto">
+		<form id="formularioCompra" action="/FrontEnd/cargar_compra" method="post" >
+			<div class="contenedor">
+				<h6>Registrate ahora</h6>
+				<div class="fila100">
+					<div class="columna">
+						<div class="inputBox">
+							<input type="text" name="nombre" id="nombre" from="nombre" required>
+							<span class="texto">Nombre</span>
+							<span class="linea"></span>
+						</div>
+					</div>
+					<div class="columna">
+						<div class="inputBox">
+							<input type="text" name="apellido" id="apellido" required>
+							<span class="texto">Apellido</span>
+							<span class="linea"></span>
+						</div>
+					</div>
+				</div>
+				<div class="fila100">
+					<div class="columna">
+						<div class="inputBox">
+							<input type="email" name="email" id="email" required>
+							<span class="texto">Email</span>
+							<span class="linea"></span>
+						</div>
+					</div>
+					<div class="columna">
+						<div class="inputBox">
+							<input type="tel" name="telefono" id="telefono" required>
+							<span class="texto">Telefono</span>
+							<span class="linea"></span>
+						</div>
+					</div>
+				</div>
+				<div class="fila100">
+					<div class="columna">
+						<div class="inputBox">
+							{% if valor %}
+								<p>Puedes comprar un máximo de {{ valor }}</p>
+							{% endif %}
+							<input type="hidden" name="id_concierto_visible" id="idConciertoVisible" value="{% if id_concierto %}{{ id_concierto }}{% endif %}">
+							<!--{% if id_concierto %}
+								<p> el id es {{id_concierto}} </p>
+							{% endif %}-->
+						</div>
+					</div>
+				</div>
+				<div class="fila100">
+					<div class="columna">
+						<div class="inputBox">
+							<input type="number" name="cantidad" id="cantidad" min="0" {% if valor %} max="{{ valor }}" {% endif %} required>
+							<span class="texto">Cantidad de Entradas a comprar</span>
+							<span class="linea"></span>
+						</div>
+					</div>
+				</div>
+				<div class="fila100">
+					<div class="columna">
+						<input type="submit" value="Enviar">
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			const formulario = document.getElementById("miFormulario");
+
+			formulario.addEventListener("submit", function (event) {
+				const nombre = document.getElementById("nombre").value;
+				const apellido = document.getElementById("apellido").value;
+				const email = document.getElementById("email").value;
+				const telefono = document.getElementById("telefono").value;
+				const cantidad = document.getElementById("cantidad").value;
+				const id = document.getElementById("idConciertoVisible").value;
+
+				if (nombre === "" || apellido === "" || email === "" || telefono === "") {
+					alert("Por favor, complete todos los campos obligatorios.");
+					event.preventDefault();
+				} else {
+					const idConciertosSelect = document.getElementById("idConciertos");
+					const idConciertosHidden = document.getElementById("idConciertosHidden");
+					const idConciertos = [];
+
+					for (let option of idConciertosSelect.options) {
+						if (option.selected) {
+							idConciertos.push(option.value);
+						}
+					}
+
+					idConciertosHidden.value = JSON.stringify(idConciertos);
+					const idConciertoVisible = document.getElementById("idConciertoVisible");
+					idConciertoVisible.value = id;
+				}
+			});
+		});
+	</script>
+</body>
+</html>
